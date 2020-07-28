@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/rmdhfz/web-clock/issues"
   },
-  "homepage": "https://github.com/rmdhfz/web-clock#readme"
+  "homepage": "https://github.com/rmdhfz/web-clock#readme",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "moment": "^2.27.0"
+  }
 }
