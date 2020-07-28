@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Clock Web</title>
+    </head>
+    <style type="text/css">
+    	.clock {
+		    width: 400px;
+		    background-color: black;
+		    padding: 30px;
+		    color: white;
+		    font-family: sans-serif;
+		    display: flex;
+		    flex-direction: column;
+		}
+		 
+		 
+		.clock .time {
+		    font-size: 64px;
+		    margin: 0 auto;
+		}
+		 
+		 
+		.clock .date {
+		    font-size: 24px;
+		    margin: 0 auto;
+		}
+    </style>
+    <body>
+        <div class="clock">
+            <span class="time"></span>
+            <span class="date"></span>
+        </div>
+ 
+        <script src="node_modules/moment/moment.js"></script>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
