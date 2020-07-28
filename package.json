@@ -1,0 +1,22 @@
+{
+  "name": "webclock",
+  "version": "1.0.0",
+  "description": "web-clock (dicoding)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test spesificed\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmdhfz/web-clock.git"
+  },
+  "keywords": [
+    "web-clock"
+  ],
+  "author": "Hafiz Ramadhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmdhfz/web-clock/issues"
+  },
+  "homepage": "https://github.com/rmdhfz/web-clock#readme"
+}
